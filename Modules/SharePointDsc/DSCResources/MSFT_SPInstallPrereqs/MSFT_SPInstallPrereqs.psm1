@@ -277,14 +277,14 @@ function Get-TargetResource
                 SearchValue = "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.*"
             },
             [PSObject]@{
-                Name = "Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0"
+                Name = "Microsoft Visual C++ 2015/2017 x64 Minimum Runtime - 14.0"
                 SearchType = "Like"
-                SearchValue = "Microsoft Visual C++ 2015 x64 Minimum Runtime - 14.0.*"
+                SearchValue = "Microsoft Visual C++ 201[57] x64 Minimum Runtime - 14.0.*"
             },
             [PSObject]@{
-                Name = "Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0"
+                Name = "Microsoft Visual C++ 2015/2017 x64 Additional Runtime - 14.0"
                 SearchType = "Like"
-                SearchValue = "Microsoft Visual C++ 2015 x64 Additional Runtime - 14.0.*"
+                SearchValue = "Microsoft Visual C++ 201[57] x64 Additional Runtime - 14.0.*"
             }
         )            
     }
